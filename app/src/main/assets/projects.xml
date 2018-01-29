@@ -153,6 +153,29 @@
 				<git name="android_external_ant-wireless_ant_native" />
 			</repos>
 		</device>
+		<device>
+			<name>Mi 5</name>
+			<code>gemini</code>
+			<repos>
+				<git name="android_hardware_qcom_display-caf-msm8996" />
+				<git name="android_hardware_qcom_audio-caf-msm8996" />
+				<git name="android_hardware_qcom_media-caf-msm8996" />
+				<git name="android_kernel_xiaomi_msm8996" />
+				<git name="android_device_xiaomi_gemini" />
+				<git name="android_device_xiaomi_msm8996-common" />
+				<git name="android_vendor_qcom_opensource_interfaces" />
+				<git name="android_vendor_nxp-nfc_opensource_libnfc-nci" />
+				<git name="android_vendor_nxp-nfc_opensource_Nfc" />
+				<git name="android_vendor_nxp-nfc_opensource_frameworks" />
+				<git name="vendor_qcom_opensource_dataservices" />
+				<git name="android_external_libnfnetlink" />
+				<git name="android_external_libnetfilter_conntrack" />
+				<git name="android_device_qcom_caf-sepolicy" />
+				<git name="android_external_ant-wireless_antradio-library" />
+				<git name="android_external_ant-wireless_ant_service" />
+				<git name="android_external_ant-wireless_ant_native" />
+			</repos>
+                </device>
 	</oem>
     <oem name="OnePlus">
 		<device>
