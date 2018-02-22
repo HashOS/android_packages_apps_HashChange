@@ -22,7 +22,9 @@
   <string name="clear_cache_sum">Im Falle eines Problems, hier klicken</string>
   <string name="cleared_cache">Cache geleert.</string>
   <string name="network_error">Fehler</string>
+  <string name="using_cache">Netzwerkfehler. Nur zwischengespeicherte Änderungen werden anzeigen. \n\nBitte versuchen Sie, die Website manuell in Ihrem Browser zu öffnen.</string>
   <string name="change">Ändern</string>
+  <string name="no_changes">Keine Änderungen.\n\nEntweder ist Ihr Build sehr aktuell oder Sie müssen die Änderungsfilter aktualisieren.</string>
   <string name="no_message">(keine Commit-Nachricht)</string>
   <string name="close">Schließen</string>
   <string name="open">Öffnen</string>
