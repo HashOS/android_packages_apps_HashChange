@@ -1,5 +1,6 @@
 package com.bytehamster.changelog;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
@@ -12,7 +13,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -79,7 +79,6 @@ public class Main extends Activity {
 
     private ListView mListView = null;
     private Activity mActivity = null;
-    private SwipeRefreshLayout swipeContainer = null;
     private SharedPreferences mSharedPreferences = null;
     private String mDeviceFilterKeyword;
     private String mLastDate = "";
@@ -97,9 +96,9 @@ public class Main extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        getActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_TITLE);
 
         mActivity = this;
-        setTitle(R.string.changelog);
         mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         GERRIT_URL = mSharedPreferences.getString("server_url", DEFAULT_GERRIT_URL);
         mChangeAdapter = new ChangeAdapter(mActivity, mChangesList, GERRIT_URL);
@@ -108,13 +107,6 @@ public class Main extends Activity {
         mListView.setAdapter(mChangeAdapter);
         mListView.setOnItemClickListener(MainListClickListener);
         mListView.setOnItemLongClickListener(MainListLongClickListener);
-        swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipe_container);
-        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                load();
-            }
-        });
         mListView.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(AbsListView view, int scrollState) {
@@ -125,7 +117,6 @@ public class Main extends Activity {
                 int topRowVerticalPosition =
                         (mListView == null || mListView.getChildCount() == 0) ?
                                 0 : mListView.getChildAt(0).getTop();
-                swipeContainer.setEnabled(firstVisibleItem == 0 && topRowVerticalPosition >= 0);
             }
         });
 
@@ -151,7 +142,6 @@ public class Main extends Activity {
     @Override
     public void onResume() {
         super.onResume();
-        GERRIT_URL = mSharedPreferences.getString("server_url", DEFAULT_GERRIT_URL);
 
         if (mJustStarted) {
             mJustStarted = false;
@@ -182,7 +172,6 @@ public class Main extends Activity {
                         mChangeAdapter.clear();
                         findViewById(R.id.progress).setVisibility(View.VISIBLE);
                         ((TextView) findViewById(android.R.id.empty)).setText("");
-                        setTitle(getResources().getString(R.string.changelog));
                     }
                 });
 
@@ -300,7 +289,6 @@ public class Main extends Activity {
                         mChangeAdapter.update(mChangesList);
                         mNumItems.setText(String.valueOf(mChangesCount));
                         mIsLoading = false;
-                        swipeContainer.setRefreshing(false);
                     }
                 });
             }
@@ -557,9 +545,9 @@ public class Main extends Activity {
             if ((Integer) mChangesList.get(position).get("type") == Change.TYPE_ITEM) {
 
 
-                if (mSharedPreferences.getString("list_action", "expand").equals("popup")) {
+                /*if (mSharedPreferences.getString("list_action", "expand").equals("popup")) {
                     Dialogs.changeDetails(mActivity, mChangesList.get(position), GERRIT_URL);
-                } else {
+                } else {*/
                     final TextView info = (TextView) view.findViewById(R.id.info);
                     final View buttons = view.findViewById(R.id.buttons);
 
@@ -588,7 +576,7 @@ public class Main extends Activity {
                         }, 300);
 
                     }
-                }
+                //}
             }
         }
     };

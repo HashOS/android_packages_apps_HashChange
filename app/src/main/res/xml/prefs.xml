@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="@string/view">
-        <ListPreference
+        <!--<ListPreference
                 android:defaultValue="expand"
                 android:entries="@array/list_action_entries"
                 android:entryValues="@array/list_action_values"
                 android:key="list_action"
                 android:summary="@string/list_action_sum"
-                android:title="@string/list_action"/>
+                android:title="@string/list_action"/>-->
 
         <CheckBoxPreference
                 android:defaultValue="true"
