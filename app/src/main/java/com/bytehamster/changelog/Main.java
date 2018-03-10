@@ -68,8 +68,8 @@ public class Main extends Activity {
     public static final String EMPTY_DEVICE_LIST = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><devicesList></devicesList>";
 
     public static final SimpleDateFormat mDateFormatFilter = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.US);
-    public static final DateFormat mDateFormat = DateFormat.getDateTimeInstance(DateFormat.DEFAULT, DateFormat.SHORT);
-    public static final DateFormat mDateDayFormat = DateFormat.getDateInstance(DateFormat.DEFAULT);
+    public static final DateFormat mDateFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT);
+    public static final DateFormat mDateDayFormat = DateFormat.getDateInstance(DateFormat.SHORT);
 
 
     private final ArrayList<Map<String, Object>> mChangesList = new ArrayList<Map<String, Object>>();
