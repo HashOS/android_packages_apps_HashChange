@@ -15,6 +15,7 @@
   <string name="animate_new_sum">Korosta kohteita, jotka esitetään ensimmäistä kertaa</string>
   <string name="translations">Käännökset</string>
   <string name="clear_cache">Tyhjennä välimuisti</string>
+  <string name="cleared_cache">Välimuisti tyhjennetty.</string>
   <string name="network_error">Virhe</string>
   <string name="open">Avaa</string>
   <string name="is_new">UUSI:</string>

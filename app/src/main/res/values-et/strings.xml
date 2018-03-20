@@ -22,7 +22,7 @@
   <string name="clear_cache_sum">Probleemi korral vajuta seda</string>
   <string name="cleared_cache">Vahemälu tühjendatud.</string>
   <string name="network_error">Viga</string>
-  <string name="using_cache">Võrgu viga. Kuvan ainult vahemälus olevaid muudatusi. \n\nPalun proovi käsitsi avada veebileht oma brauseris.</string>
+  <string name="using_cache">Võrgu viga. Kuvan ainult vahemälus olevaid muudatusi. \n\nPalun proovi avada veebileht käsitsi oma brauseris.</string>
   <string name="change">Muutus</string>
   <string name="no_changes">Muutusi pole.\n\nSu versioon on kas täiesti kaasaegne või sa pead uuendama muutuste filtreid.</string>
   <string name="no_message">(commit\'i sõnum puudub)</string>

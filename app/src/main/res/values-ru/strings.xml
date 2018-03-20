@@ -19,7 +19,7 @@
   <string name="animate_new_sum">Выделить элементы, которые отображаются в первый раз</string>
   <string name="translations">Переводы</string>
   <string name="clear_cache">Очистить кэш</string>
-  <string name="clear_cache_sum">В случае возникновения каких-либо проблем нажмите это</string>
+  <string name="clear_cache_sum">В случае каких-либо проблем нажмите здесь.</string>
   <string name="cleared_cache">Кэш очищен.</string>
   <string name="network_error">Ошибка</string>
   <string name="using_cache">Ошибка сети. Отображаются только кэшированные изменения. \n\nПожалуйста, попробуйте вручную открыть веб-сайт в вашем браузере.</string>
