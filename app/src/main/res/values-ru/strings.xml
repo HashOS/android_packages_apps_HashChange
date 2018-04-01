@@ -11,13 +11,13 @@
   <string name="list_action_sum">Действие при выборе элемента списка</string>
   <string name="cancel">Отмена</string>
   <string name="filter">Фильтр</string>
-  <string name="filter_all">Все устройства</string>
+  <string name="filter_all">Показать все устройства</string>
   <string name="add_device">Устройства...</string>
   <string name="device_list">Устройства</string>
   <string name="this_device">Это устройство</string>
   <string name="animate_new">Выделить новые элементы</string>
   <string name="animate_new_sum">Выделить элементы, которые отображаются в первый раз</string>
-  <string name="translations">Переводы</string>
+  <string name="translations">Показать изменения в переводе</string>
   <string name="clear_cache">Очистить кэш</string>
   <string name="clear_cache_sum">В случае каких-либо проблем нажмите здесь.</string>
   <string name="cleared_cache">Кэш очищен.</string>
@@ -33,7 +33,7 @@
   <string name="open_gerrit">Посмотреть на Gerrit</string>
   <string name="open_website">Веб-сайт</string>
   <string name="branches">Ветки: </string>
-  <string name="show_twrp">Показать изменения TWRP</string>
+  <string name="show_twrp">Показать изменения в recovery</string>
   <string name="about">О приложении</string>
   <string name="retry">Повторить</string>
   <string name="gerrit">Gerrit</string>
@@ -43,4 +43,5 @@
   <string name="num_items_label">Изменения:</string>
   <string name="build_time_label">Сборка:</string>
   <string name="menu_date_label">Начиная с</string>
+  <string name="build_time">Показывать перед временем сборки</string>
 </resources>

@@ -11,13 +11,11 @@
   <string name="list_action_sum">Aktion bei der Auswahl eines Listeneintrags</string>
   <string name="cancel">Abbrechen</string>
   <string name="filter">Filter</string>
-  <string name="filter_all">Alle Geräte</string>
   <string name="add_device">Geräte...</string>
   <string name="device_list">Geräte</string>
   <string name="this_device">Dieses Gerät</string>
   <string name="animate_new">Neue Elemente hervorheben</string>
   <string name="animate_new_sum">Markiere Elemente, die zum ersten Mal gezeigt werden</string>
-  <string name="translations">Übersetzungen</string>
   <string name="clear_cache">Cache leeren</string>
   <string name="clear_cache_sum">Im Falle eines Problems, hier klicken</string>
   <string name="cleared_cache">Cache geleert.</string>
@@ -33,7 +31,6 @@
   <string name="open_gerrit">Auf Gerrit ansehen</string>
   <string name="open_website">Website</string>
   <string name="branches">Branches: </string>
-  <string name="show_twrp">TWRP Änderungen anzeigen</string>
   <string name="about">Über</string>
   <string name="retry">Wiederholen</string>
   <string name="gerrit">Gerrit</string>

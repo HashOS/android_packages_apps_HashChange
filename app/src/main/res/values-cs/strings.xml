@@ -11,13 +11,13 @@
   <string name="list_action_sum">Akce při výběru položky seznamu</string>
   <string name="cancel">Zrušit</string>
   <string name="filter">Filtrovat</string>
-  <string name="filter_all">Všechna zařízení</string>
+  <string name="filter_all">Zobrazit všechna zařízení</string>
   <string name="add_device">Zařízení...</string>
   <string name="device_list">Zařízení</string>
   <string name="this_device">Toto zařízení</string>
   <string name="animate_new">Zvýraznit nové položky</string>
   <string name="animate_new_sum">Zvýraznit položky, které jsou zobrazeny poprvé</string>
-  <string name="translations">Překlady</string>
+  <string name="translations">Zobrazit změny překladů</string>
   <string name="clear_cache">Vymazat cache</string>
   <string name="clear_cache_sum">V případě jakéhokoliv problému, stiskněte toto</string>
   <string name="cleared_cache">Cache vymazána.</string>
@@ -33,7 +33,7 @@
   <string name="open_gerrit">Zobrazit na Gerritu</string>
   <string name="open_website">Webová stránka</string>
   <string name="branches">Pobočky: </string>
-  <string name="show_twrp">Zobrazit změny TWRP</string>
+  <string name="show_twrp">Zobrazit změny recovery</string>
   <string name="about">O nás</string>
   <string name="retry">Opakovat</string>
   <string name="gerrit">Gerrit</string>
@@ -43,4 +43,5 @@
   <string name="num_items_label">Změny:</string>
   <string name="build_time_label">Sestavení:</string>
   <string name="menu_date_label">Od</string>
+  <string name="build_time">Zobrazit před časem sestavením</string>
 </resources>

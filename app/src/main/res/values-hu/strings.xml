@@ -11,13 +11,13 @@
   <string name="list_action_sum">Művelet listaelem kiválasztásakor</string>
   <string name="cancel">Mégse</string>
   <string name="filter">Szűrő</string>
-  <string name="filter_all">Összes eszköz</string>
+  <string name="filter_all">Összes eszköz megjelenítése</string>
   <string name="add_device">Eszközök...</string>
   <string name="device_list">Eszközök</string>
   <string name="this_device">Ez az eszköz</string>
   <string name="animate_new">Új elemek kiemelése</string>
   <string name="animate_new_sum">Először megjelenő elemek kiemelése</string>
-  <string name="translations">Fordítások</string>
+  <string name="translations">Fordítási módosítások megjelenítése</string>
   <string name="clear_cache">Gyorsítótár törlése</string>
   <string name="clear_cache_sum">Probléma esetén érintse meg itt</string>
   <string name="cleared_cache">Gyorsítótár törölve.</string>
@@ -33,7 +33,7 @@
   <string name="open_gerrit">Megtekintés Gerriten</string>
   <string name="open_website">Honlap</string>
   <string name="branches">Ágak: </string>
-  <string name="show_twrp">TWRP változásainak megjelenítése</string>
+  <string name="show_twrp">Recovery módosítások megjelenítése</string>
   <string name="about">Névjegy</string>
   <string name="retry">Újra</string>
   <string name="gerrit">Gerrit</string>
@@ -43,4 +43,5 @@
   <string name="num_items_label">Változások:</string>
   <string name="build_time_label">Építés:</string>
   <string name="menu_date_label">Ettől</string>
+  <string name="build_time">Építés ideje előtti változások</string>
 </resources>

@@ -11,13 +11,13 @@
   <string name="list_action_sum">Bir liste unsuru seçildiğinde yapılacak eylem</string>
   <string name="cancel">İptal</string>
   <string name="filter">Filtre</string>
-  <string name="filter_all">Bütün cihazlar</string>
+  <string name="filter_all">Bütün cihazları göster</string>
   <string name="add_device">Cihazlar...</string>
   <string name="device_list">Cihazlar</string>
   <string name="this_device">Bu cihaz</string>
   <string name="animate_new">Yeni unsurları öne çıkar</string>
   <string name="animate_new_sum">İlk defa gösterilen unsurları öne çıkar</string>
-  <string name="translations">Tercümeler</string>
+  <string name="translations">Tercüme değişikliklerini göster</string>
   <string name="clear_cache">Önbelleği temizle</string>
   <string name="clear_cache_sum">Herhangi bir mesele hâlinde, buraya dokunun</string>
   <string name="cleared_cache">Önbellek temizlendi.</string>
@@ -33,7 +33,7 @@
   <string name="open_gerrit">Gerrit\'de göster</string>
   <string name="open_website">Web site</string>
   <string name="branches">Dallar: </string>
-  <string name="show_twrp">TWRP değişikliklerini göster</string>
+  <string name="show_twrp">Recovery değişikliklerini göster</string>
   <string name="about">Hakkında</string>
   <string name="retry">Tekrar dene</string>
   <string name="gerrit">Gerrit</string>
@@ -43,4 +43,5 @@
   <string name="num_items_label">Değişiklik:</string>
   <string name="build_time_label">Derleme:</string>
   <string name="menu_date_label">İtibâren</string>
+  <string name="build_time">Derleme târihinden evvelkileri göster</string>
 </resources>

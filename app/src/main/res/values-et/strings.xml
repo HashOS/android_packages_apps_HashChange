@@ -11,13 +11,13 @@
   <string name="list_action_sum">Tegevus nimekirja üksuse valimisel</string>
   <string name="cancel">Tühista</string>
   <string name="filter">Filter</string>
-  <string name="filter_all">Kõik seadmed</string>
+  <string name="filter_all">Kuva kõiki seadmeid</string>
   <string name="add_device">Seadmed...</string>
   <string name="device_list">Seadmed</string>
   <string name="this_device">See seade</string>
   <string name="animate_new">Tõsta uued üksused esile</string>
   <string name="animate_new_sum">Tõsta esimest korda kuvatud üksused esile</string>
-  <string name="translations">Tõlked</string>
+  <string name="translations">Kuva tõlgete muutusi</string>
   <string name="clear_cache">Tühjenda vahemälu</string>
   <string name="clear_cache_sum">Probleemi korral vajuta seda</string>
   <string name="cleared_cache">Vahemälu tühjendatud.</string>
@@ -33,7 +33,7 @@
   <string name="open_gerrit">Vaata Gerritis</string>
   <string name="open_website">Veebisait</string>
   <string name="branches">Harud: </string>
-  <string name="show_twrp">Kuva TWRP muudatusi</string>
+  <string name="show_twrp">Kuva taastuse muutusi</string>
   <string name="about">Teave</string>
   <string name="retry">Proovi uuesti</string>
   <string name="gerrit">Gerrit</string>
@@ -43,4 +43,5 @@
   <string name="num_items_label">Muudatusi:</string>
   <string name="build_time_label">Valmistatud:</string>
   <string name="menu_date_label">Alates</string>
+  <string name="build_time">Kuva enne valmistusaega</string>
 </resources>

@@ -7,13 +7,13 @@
   <string name="settings">Asetukset</string>
   <string name="cancel">Peruuta</string>
   <string name="filter">Suodata</string>
-  <string name="filter_all">Kaikki laitteet</string>
+  <string name="filter_all">Näytä kaikki laitteet</string>
   <string name="add_device">Laitteet...</string>
   <string name="device_list">Laitteet</string>
   <string name="this_device">Tämä laite</string>
   <string name="animate_new">Uusien kohteiden korostaminen</string>
   <string name="animate_new_sum">Korosta kohteita, jotka esitetään ensimmäistä kertaa</string>
-  <string name="translations">Käännökset</string>
+  <string name="translations">Näytä käännös muutokset</string>
   <string name="clear_cache">Tyhjennä välimuisti</string>
   <string name="cleared_cache">Välimuisti tyhjennetty.</string>
   <string name="network_error">Virhe</string>
