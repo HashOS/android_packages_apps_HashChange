@@ -33,7 +33,7 @@
   <string name="open_gerrit">Посмотреть на Gerrit</string>
   <string name="open_website">Веб-сайт</string>
   <string name="branches">Ветки: </string>
-  <string name="show_twrp">Показать изменения в recovery</string>
+  <string name="show_twrp">Показать изменения Recovery</string>
   <string name="about">О приложении</string>
   <string name="retry">Повторить</string>
   <string name="gerrit">Gerrit</string>

@@ -11,6 +11,7 @@
   <string name="list_action_sum">Azione quando si seleziona una voce</string>
   <string name="cancel">Cancella</string>
   <string name="filter">Filtro</string>
+  <string name="filter_all">Mostra tutti i dispositivi</string>
   <string name="add_device">Dispositivi...</string>
   <string name="device_list">Lista smartphone</string>
   <string name="this_device">Questo dispositivo</string>
