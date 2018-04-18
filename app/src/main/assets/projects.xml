@@ -9,6 +9,22 @@
     <oem name="Elephone">
     </oem>
     <oem name="Nextbit">
+        <device>
+            <name>Nextbit Robin</name>
+            <code>ether</code>
+            <repos>
+                <git name="android_device_nextbit_ether" />
+                <git name="android_kernel_nextbit_msm8992" />"
+                <git name="android_hardware_qcom_display-caf-msm8992" />
+                <git name="android_hardware_qcom_audio-caf-msm8992" />
+                <git name="android_hardware_qcom_media-caf-msm8992" />
+                <git name="android_device_qcom_caf-sepolicy" />
+                <git name="vendor_qcom_opensource_dataservices" />
+                <git name="android_external_ant-wireless_antradio-library" />
+                <git name="android_external_ant-wireless_ant_native" />
+                <git name="android_vendor_qcom_opensource_interfaces" />
+            </repos>
+        </device>
     </oem>
     <oem name="Google">
     </oem>
