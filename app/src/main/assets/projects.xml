@@ -232,6 +232,25 @@
             </repos>
         </device>
         <device>
+            <name>Mi 6</name>
+            <code>sagit</code>
+            <repos>
+                <git name="android_device_xiaomi_sagit" />
+                <git name="android_hardware_qcom_display-caf-msm8998" />
+                <git name="android_hardware_qcom_audio-caf-msm8998" />
+                <git name="android_hardware_qcom_media-caf-msm8998" />
+                <git name="android_packages_apps_SnapdragonCamera2" />
+                <git name="vendor_qcom_opensource_dataservices" />
+                <git name="android_device_qcom_caf-sepolicy" />
+                <git name="android_vendor_qcom_opensource_interfaces" />
+                <git name="android_vendor_qcom_opensource_bluetooth" />
+                <git name="android_external_ant-wireless_antradio-library" />
+                <git name="android_external_ant-wireless_ant_service" />
+                <git name="android_external_ant-wireless_ant_native" />
+                <git name="android_kernel_xiaomi_msm8998" />
+            </repos>
+        </device>
+        <device>
             <name>Redmi Note 3</name>
             <code>kenzo</code>
             <repos>
