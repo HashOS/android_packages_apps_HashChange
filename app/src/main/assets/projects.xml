@@ -33,6 +33,15 @@
     <oem name="Huawei">
     </oem>
     <oem name="LG">
+        <device>
+            <name>Nexus 5X</name>
+            <code>bullhead</code>
+            <repos>
+                <git name="android_device_lge_bullhead" />
+                <git name="android_kernel_lge_bullhead" />
+                <git name="android_hardware_qcom_gps" />
+            </repos>
+        </device>
     </oem>
     <oem name="Motorola">
         <device>
