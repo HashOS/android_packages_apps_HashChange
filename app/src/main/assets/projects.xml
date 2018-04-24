@@ -64,6 +64,20 @@
                 <git name="android_hardware_qcom_gps" />
             </repos>
         </device>
+        <device>
+            <name>Moto G5 Plus</name>
+            <code>potter</code>
+            <repos>
+                <git name="android_device_motorola_potter" />
+                <git name="android_kernel_motorola_msm8953" />"
+                <git name="android_hardware_qcom_display-caf-msm8996" />
+                <git name="android_hardware_qcom_audio-caf-msm8996" />
+                <git name="android_hardware_qcom_media-caf-msm8996" />
+                <git name="vendor_qcom_opensource_dataservices" />
+                <git name="android_device_qcom_caf-sepolicy" />
+                <git name="android_vendor_qcom_opensource_interfaces" />
+            </repos>
+        </device>
     </oem>
     <oem name="Samsung">
         <device>
