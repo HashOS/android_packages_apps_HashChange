@@ -33,4 +33,10 @@
   <string name="branches">Ramas: </string>
   <string name="about">Acerca de</string>
   <string name="retry">Reintentar</string>
+  <string name="gerrit">Gerrit</string>
+  <string name="other">Otros</string>
+  <string name="start_time_label">Desde:</string>
+  <string name="num_items_label">Cambios:</string>
+  <string name="build_time_label">Compilación:</string>
+  <string name="menu_date_label">Desde</string>
 </resources>
