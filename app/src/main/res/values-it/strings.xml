@@ -17,6 +17,7 @@
   <string name="this_device">Questo dispositivo</string>
   <string name="animate_new">Evidenza nuovi elementi</string>
   <string name="animate_new_sum">Evidenza gli elementi che vengono mostrati per la prima volta</string>
+  <string name="translations">Mostra modifiche traduzioni</string>
   <string name="clear_cache">Svuota cache</string>
   <string name="clear_cache_sum">In caso di problemi, premi questo</string>
   <string name="cleared_cache">Cache svuotata.</string>
@@ -32,6 +33,7 @@
   <string name="open_gerrit">Visualizza su Gerrit</string>
   <string name="open_website">Sito web</string>
   <string name="branches">Rami: </string>
+  <string name="show_twrp">Mostra modifiche recovery</string>
   <string name="about">Informazioni</string>
   <string name="retry">Riprova</string>
   <string name="gerrit">Gerrit</string>
@@ -41,4 +43,5 @@
   <string name="num_items_label">Modifiche:</string>
   <string name="build_time_label">Build:</string>
   <string name="menu_date_label">Dal</string>
+  <string name="build_time">Mostra prima della data di build</string>
 </resources>
