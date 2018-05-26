@@ -31,6 +31,13 @@
     <oem name="HTC">
     </oem>
     <oem name="Huawei">
+        <device>
+            <name>Honor View 10</name>
+            <code>berkeley</code>
+            <repos>
+                <git name="android_device_huawei_berkeley" />
+            </repos>
+        </device>
     </oem>
     <oem name="LG">
         <device>
