@@ -9,7 +9,7 @@
   <string name="settings">Ayarlar</string>
   <string name="list_action">Liste eylemi</string>
   <string name="list_action_sum">Bir liste unsuru seçildiğinde yapılacak eylem</string>
-  <string name="cancel">İptal</string>
+  <string name="cancel">İptal et</string>
   <string name="filter">Filtre</string>
   <string name="filter_all">Bütün cihazları göster</string>
   <string name="add_device">Cihazlar...</string>
