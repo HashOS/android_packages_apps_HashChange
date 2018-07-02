@@ -85,6 +85,21 @@
                 <git name="android_vendor_qcom_opensource_interfaces" />
             </repos>
         </device>
+        <device>
+            <name>Moto Z</name>
+            <code>griffin</code>
+            <repos>
+                <git name="android_device_motorola_griffin" />
+                <git name="android_kernel_motorola_msm8996" />"
+                <git name="android_hardware_qcom_display-caf-msm8996" />
+                <git name="android_hardware_qcom_audio-caf-msm8996" />
+                <git name="android_hardware_qcom_media-caf-msm8996" />
+                <git name="vendor_qcom_opensource_dataservices" />
+                <git name="android_device_qcom_caf-sepolicy" />
+                <git name="android_vendor_qcom_opensource_interfaces" />
+                <git name="android_external_bson" />
+            </repos>
+        </device>
     </oem>
     <oem name="Nubia">
         <device>
