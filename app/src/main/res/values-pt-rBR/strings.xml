@@ -3,6 +3,7 @@
 <resources>
   <string name="app_name">Novidades</string>
   <string name="changelog">Novidades</string>
+  <string name="info">Informação</string>
   <string name="refresh">Atualizar</string>
   <string name="ok">OK</string>
   <string name="settings">Configurações</string>

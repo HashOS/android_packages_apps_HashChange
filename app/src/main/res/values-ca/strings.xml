@@ -6,7 +6,7 @@
   <string name="info">Informació</string>
   <string name="refresh">Refresca</string>
   <string name="ok">D\'acord</string>
-  <string name="settings">Ajustaments</string>
+  <string name="settings">Configuració</string>
   <string name="list_action">Llista d\'accions</string>
   <string name="list_action_sum">Acció en seleccionar una entrada de la llista</string>
   <string name="cancel">Cancel·la</string>
@@ -18,9 +18,9 @@
   <string name="animate_new">Destaca els elements nous</string>
   <string name="animate_new_sum">Destaca els elements que es mostren per primera vegada</string>
   <string name="translations">Mostra els canvis a les traduccions</string>
-  <string name="clear_cache">Esborra la memòria cau</string>
+  <string name="clear_cache">Neteja la memòria cau</string>
   <string name="clear_cache_sum">Si hi ha algun problema, toqueu aquí</string>
-  <string name="cleared_cache">Memòria cau esborrada.</string>
+  <string name="cleared_cache">S\'ha netejat la memòria cau.</string>
   <string name="network_error">Error</string>
   <string name="using_cache">Error de xarxa. Es mostren només els canvis en memòria cau. \n\nIntenteu obrir manualment el lloc web al navegador.</string>
   <string name="change">Canvia</string>
