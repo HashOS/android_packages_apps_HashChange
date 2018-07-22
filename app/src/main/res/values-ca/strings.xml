@@ -15,8 +15,8 @@
   <string name="add_device">Dispositius...</string>
   <string name="device_list">Dispositius</string>
   <string name="this_device">Aquest dispositiu</string>
-  <string name="animate_new">Destaca els elements nous</string>
-  <string name="animate_new_sum">Destaca els elements que es mostren per primera vegada</string>
+  <string name="animate_new">Ressalta els elements nous</string>
+  <string name="animate_new_sum">Ressalta els elements que es mostren per primera vegada</string>
   <string name="translations">Mostra els canvis a les traduccions</string>
   <string name="clear_cache">Neteja la memòria cau</string>
   <string name="clear_cache_sum">Si hi ha algun problema, toqueu aquí</string>
