@@ -70,7 +70,7 @@ class ChangeFilter {
             if (!mUseProjectsList.isEmpty()) mUseProjectsList.clear();
 
             if (! displayAll) {
-                mUseProjectsList.add("android_vendor_omni");
+                mUseProjectsList.add("android_vendor_hash");
                 NodeList gitList = mWatchedDoc.getDocumentElement().getElementsByTagName("git");
                 for (int i = 0; i < gitList.getLength(); i++) {
                     if (gitList.item(i).getNodeType() != Node.ELEMENT_NODE) continue;

@@ -32,9 +32,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.omnirom.omnichange.OmniBuildData;
-import org.omnirom.omnichange.R;
-import org.omnirom.omnichange.SystemProperties;
+import org.hash.hashchange.HashBuildData;
+import org.hash.hashchange.R;
+import org.hash.hashchange.SystemProperties;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -59,9 +59,9 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 public class Main extends Activity {
     private static final String TAG = "Main";
-    public static final String DEFAULT_GERRIT_URL = "https://gerrit.omnirom.org/";
-    public static final String DEFAULT_BRANCH = "android-8.1";
-    public static final String DEFAULT_VERSION = "8.1.0";
+    public static final String DEFAULT_GERRIT_URL = "https://gerrit.hash-os.com/";
+    public static final String DEFAULT_BRANCH = "android-9.0";
+    public static final String DEFAULT_VERSION = "9.0.0";
     public static final int MAX_CHANGES = 200;
     public static final int MAX_CHANGES_FETCH = 800;  // Max changes to be fetched
     public static final int MAX_CHANGES_DB = 1500; // Max changes to be loaded from DB
@@ -87,7 +87,7 @@ public class Main extends Activity {
     private Document mWatchedDoc = null;
     private ChangeAdapter mChangeAdapter = null;
     private int mChangesCount = 0;
-    private String GERRIT_URL = "https://gerrit.omnirom.org/";
+    private String GERRIT_URL = "https://gerrit.hash-os.com/";
     private TextView mNumItems;
     private TextView mStartDate;
     private List<Long> mWeeklyBuilds;
@@ -176,7 +176,7 @@ public class Main extends Activity {
                 });
 
                 if (mWeeklyBuilds == null) {
-                    mWeeklyBuilds = OmniBuildData.getWeeklyBuildTimes();
+                    mWeeklyBuilds = HashBuildData.getWeeklyBuildTimes();
                 }
 
                 ChangeLoader loader = new ChangeLoader(mActivity, mSharedPreferences, GERRIT_URL);
@@ -589,7 +589,7 @@ public class Main extends Activity {
     }
 
     public static String getDefaultDevice() {
-        return SystemProperties.get("ro.omni.device");
+        return SystemProperties.get("ro.hash.device");
     }
 
     private void setDefaultDeviceFilter() {

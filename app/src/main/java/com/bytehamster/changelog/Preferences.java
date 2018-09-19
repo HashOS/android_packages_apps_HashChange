@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import org.omnirom.omnichange.R;
+import org.hash.hashchange.R;
 
 public class Preferences extends Activity {
     @Override

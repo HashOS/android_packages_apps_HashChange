@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import org.omnirom.omnichange.R;
+import org.hash.hashchange.R;
 
 import java.util.ArrayList;
 import java.util.Map;

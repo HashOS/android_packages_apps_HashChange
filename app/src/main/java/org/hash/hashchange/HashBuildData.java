@@ -1,4 +1,4 @@
-package org.omnirom.omnichange;
+package org.hash.hashchange;
 
 
 import android.util.Log;
@@ -20,11 +20,11 @@ import java.util.List;
 
 import javax.net.ssl.HttpsURLConnection;
 
-public class OmniBuildData {
-    private static final String TAG = "OmniBuildData";
+public class HashBuildData {
+    private static final String TAG = "HashBuildData";
     private static final int HTTP_READ_TIMEOUT = 30000;
     private static final int HTTP_CONNECTION_TIMEOUT = 30000;
-	private static final String URL_BAS_JSON = "https://dl.omnirom.org/json.php";
+    private static final String URL_BAS_JSON = "https://download.hash-os.com/json.php";
 
     private static HttpsURLConnection setupHttpsRequest(String urlStr){
         URL url;

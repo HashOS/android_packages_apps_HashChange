@@ -1,10 +1,10 @@
-package org.omnirom.omnichange;
+package org.hash.hashchange;
 
 import android.os.Bundle;
 
 import com.bytehamster.changelog.Main;
 
-public class OmniMain extends Main {
+public class HashMain extends Main {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.OmniStyle" parent="@android:style/Theme.DeviceDefault.Settings" />
+    <style name="Theme.HashStyle" parent="@android:style/Theme.DeviceDefault.Settings" />
 
 </resources>
