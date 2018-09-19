@@ -12,7 +12,7 @@ import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.omnirom.omnichange.R;
+import org.hash.hashchange.R;
 
 public class SettingsFragment extends PreferenceFragment {
 

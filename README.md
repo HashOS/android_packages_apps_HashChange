@@ -1,6 +1,6 @@
-# OmniROM Changelog
+# HashOS Changelog
 
-This changelog shows every merged change on the OmniROM Gerrit instance after your current build time.
+This changelog shows every merged change on the HashOS Gerrit instance after your current build time.
 
 # Based on
 

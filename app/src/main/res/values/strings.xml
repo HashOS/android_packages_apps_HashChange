@@ -57,9 +57,9 @@
     <string name="about_message" translatable="false"><![CDATA[
         © ByteHamster, 2016–2017
         <br />
-        © OmniROM, 2018
+        © HashOS, 2018
         <br /><br />
-        This app is <a href="https://github.com/omnirom/android_packages_apps_OmniChange/blob/android-8.1/LICENSE">open source</a>!
+        This app is <a href="https://github.com/HashOS/android_packages_apps_HashChange/LICENSE">open source</a>!
         <br /><br />
     ]]></string>
 

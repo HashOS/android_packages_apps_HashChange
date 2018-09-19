@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.omnirom.omnichange.R;
+import org.hash.hashchange.R;
 
 import java.util.Map;
 
